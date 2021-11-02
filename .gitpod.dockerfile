@@ -4,7 +4,8 @@ image: fr3akyphantom/droid-builder:latest
 ports:
   - port: 3000
     onOpen: open-preview
-
+RUN apt update && apt upgrade -y
+RUN sudo apt install sudo ccache
 # List the start up tasks. You can start them in parallel in multiple terminals. See https://www.gitpod.io/docs/config-start-tasks/
 tasks:
   - init: echo 'init script' # runs during prebuild
