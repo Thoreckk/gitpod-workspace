@@ -1,4 +1,4 @@
-image: fajar4561/saciku:latest
+image: fr3akyphantom/droid-builder:latest
 
 # List the ports you want to expose and what to do when they are served. See https://www.gitpod.io/docs/config-ports/
 ports:
